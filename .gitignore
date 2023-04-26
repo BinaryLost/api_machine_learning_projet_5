@@ -5,6 +5,3 @@ ytest.joblib
 ytrain.joblib
 .idea/
 __pycache__/
-mlb.joblib
-LogisticRegression_model.joblib
-vectorizer.joblib
