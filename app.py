@@ -3,7 +3,6 @@ import joblib
 import tensorflow_hub as hub
 from flask import Flask, request, jsonify
 from functions import evaluate_embedding_model
-from sklearn.metrics import classification_report, jaccard_score
 
 app = Flask(__name__)
 

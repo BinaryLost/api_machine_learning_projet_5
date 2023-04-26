@@ -1,8 +1,6 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import joblib
-from sklearn.metrics import jaccard_score, classification_report
-import pandas as pd
 import numpy as np
 
 def use_embeddings_batch(sentences, batch_size=100):
